@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>InputConsole</title>
+	<script>
+		var data = [];
+		function add_data() {
+		  boxvalue = document.getElementById('box').value;		   
+		  data.push(boxvalue);
+		  console.log(data);
+		  return false; // stop submission
+		}
+	</script>
+</head>
+<body>
+	<form onsubmit="return add_data()">
+	  <p>Please insert the data in the input box </p>
+	  <input type="text" id="box">
+	  <input type="submit" value="Submit">
+	</form>
+</body>
+</html>
