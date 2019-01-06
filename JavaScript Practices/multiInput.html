@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>InputConsole</title>
+	<style>
+		input{
+			margin:10px;
+		}
+	</style>
+	<script>		
+		var items = [];
+		function add_items() {		
+		  boxvalue0 = document.getElementById('box0').value;		  
+		  boxvalue1 = document.getElementById('box1').value;		  
+		  boxvalue2 = document.getElementById('box2').value;		  
+		  boxvalue3 = document.getElementById('box3').value;
+		if(!(boxvalue0=="" ) || !(boxvalue0==null)){		  
+		  items.push(boxvalue0);
+		}
+		else if(!(boxvalue1=="" ) || !(boxvalue1==null)){		  
+		  items.push(boxvalue1);
+		}
+		else if(!(boxvalue2=="" ) || !(boxvalue2==null)){		  
+		  items.push(boxvalue2);
+		}
+		else if(!(boxvalue3=="" ) || !(boxvalue3==null)){		  
+		  items.push(boxvalue3);
+		}
+		  console.log(items);
+		  return false; 
+		}		
+	</script>
+</head>
+<body>
+	<form>
+		<p>Please insert the items</p>
+		<label>Name 0</label>
+		<input class="abc" type="text" id="box0">
+		<input type="button" value="add" onclick="add_items()"></br>
+		<label>Name 1</label>
+		<input class="abc" type="text" id="box1"></br>
+		<label>Name 2</label>
+		<input class="abc" type="text" id="box2"></br>
+		<label>Name 3</label>
+		<input class="abc" type="text" id="box3"></br>
+	</form>
+	<hr>
+</body>
+</html>
