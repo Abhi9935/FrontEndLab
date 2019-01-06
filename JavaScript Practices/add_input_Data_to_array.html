@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MultiInput</title>
+		<style>
+			body {padding-top:50px} 
+		</style> 
+		<script>
+		var x = 0;
+		var array = Array();
+		function add_element_to_array(){
+			array[x] = document.getElementById("text1").value;		 
+			x++;
+			document.getElementById("text1").value = "";		 
+			var e = "<hr/>";
+				e+="{";
+			for (var y=0; y<array.length; y++){
+			 e += array[y] + ", ";
+			}
+			e+="}"
+		   document.getElementById("data").innerHTML = e;
+		}
+		</script>
+	</head>
+<body>
+	<input type="text" id="text1"></input>
+	<input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
+	<div id="data"></div> 
+</body>
+</html>
