@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio:FreeCodeCamp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+  *{
+	margin:0; 
+	padding:0;
+	}
+  body {
+    position: relative; 
+  }
+  .section{
+    background: #e0ebe8;
+	color:#2323ef;
+	}
+	html, body {
+	  height: 100%;
+	}
+	footer {
+		padding: 20px;
+		background: #22313F;
+		color: white;
+		line-height: 40px;
+	}
+	#welcome-section{
+		height: calc(100vh) !important;
+	}
+	@media (max-width: 600px) {
+		#welcome-section{height: 10vh;} !important;
+	}
+	#skills .progress {
+		height: 35px;
+		margin-bottom: 10px;
+	}
+	#skills .progress-bar {
+		width: 1px;
+		text-align: left;
+		transition: .9s;
+	}
+	#skills .progress .skill {
+		font-family: "Open Sans", sans-serif;
+		line-height: 35px;
+		padding: 0;
+		margin: 0 0 0 20px;
+		text-transform: uppercase;
+	}
+	#skills .progress .skill .perc {
+		float: right;
+		font-style: normal;
+		margin: 0 20px 0 0;
+	}
+	.progress {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		height: 1rem;
+		overflow: hidden;
+		font-size: .75rem;
+		background-color: #e9ecef;
+		border-radius: .25rem;
+	}
+	iframe{
+		border:0px !important;
+	}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top justify-content-center" id="navbar">  
+  <ul class="navbar-nav navbar-right">
+    <li class="nav-item"><a class="nav-link" href="#welcome-section">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>   
+    <li class="nav-item"><a target="_blank" class="nav-link" href="https://github.com/Abhi9935" id="profile-link">GitHub</a></li>    
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> 
+  </ul>
+</nav>
+<div class="d-flex align-items-center flex-column justify-content-center h-100 bg-info text-white" id="welcome-section">
+    <h1>Hey I'm Abhinav.</h1><br>
+	<p>A Web Developer & Programmer Analyst</p> 
+</div>
+<div class="container-fluid h-100  text-white pt-5 text-center" id="skills">
+	<div class="container mt-5">
+        <header class="section-header pb-4">
+          <h3 class="text-body mb-2">My Skills</h3>
+        </header>
+        <div class="skills-content">
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+					<span class="skill">JAVA <i class="perc">80%</i></span>
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+					<span class="skill">Bootstrap<i class="perc">90%</i></span>
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+					<span class="skill">AngularJS<i class="perc">40%</i></span>
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+					<span class="skill">Web Designing (HTML/CSS/JS)<i class="perc">90%</i></span>
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+					<span class="skill">Php <i class="perc">60%</i></span>
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+					<span class="skill">MySQL<i class="perc">70%</i></span>
+				</div>
+			</div>
+        </div><!-----skills-content end here------>
+      </div>
+</div>
+<div class="container-fluid h-100 bg-dark text-white pt-5 text-center" id="projects">
+	<div class="container mt-5">
+        <header class="section-header pb-4">
+          <h2 class="text-center mb-2">These are some of my projects..</h2>
+        </header>	
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card project-tile">
+						<iframe class="embed-responsive-item" src="https://abhi9935.github.io/FreeCodeCamp_TributePage/">
+						</iframe>
+					<div class="card-footer">
+						<a target="_blank" href="https://abhi9935.github.io/FreeCodeCamp_TributePage/">Tribute Page: Norman Ernest Borlaug</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card project-tile">
+						<iframe class="embed-responsive-item" src="https://abhi9935.github.io/FreeCodeCamp_TributePage/">
+						</iframe>
+					<div class="card-footer">
+						<a target="_blank" href="https://abhi9935.github.io/FreeCodeCamp_TributePage/">Survey Form</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card project-tile">
+					<div class="card-header">Header</div>
+					<div class="card-body">Content</div> 
+					<div class="card-footer">Footer</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div id="contact" class="container-fluid" style="padding-top:70px;padding-bottom:70px" >
+        <div class="container">
+            <div class="row py-4 d-flex align-items-center">
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0 white-text">Get connected with me on social networks!</h6>
+                </div>
+                <div class="col-md-6 col-lg-7 text-md-right">
+                    <a class="fb-ic ml-0" href="https://www.facebook.com/baba.abhinav"><i class="fab fa-lg fa-facebook-square white-text mr-4"></i></a>
+                    <!--<a class="tw-ic"><i class="fab fa-lg fa-twitter white-text mr-4"></i></a>-->
+                    <a class="gplus-ic" href="https://plus.google.com/118336647718528718332"><i class="fab fa-lg fa-google-plus-g white-text mr-4"></i></a>
+                    <a class="li-ic" href="https://www.linkedin.com/in/abhinav-kushwaha-86ab62119/"><i class="fab fa-lg fa-linkedin-in white-text mr-4"></i></a>
+                    <a class="ins-ic" href="https://www.instagram.com/baba_albus/"><i class="fab fa-lg fa-instagram white-text mr-4"></i></a>
+                </div>
+            </div>
+        </div>
+</div>
+<footer id="footer" class="max-auto text-center">    
+    <div class="container">
+		<div class=" footer-copyright1 py-4 text-center">© 2018 Copyright:
+			<a href="http://babaalbus.com/"> Abhinav (1416334)</a>
+		</div>  
+    </div>
+</footer>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
