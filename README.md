@@ -2,7 +2,7 @@
 ###### author: [**Abhinav Kushwaha (Baba Albus)**](http://babaalbus.com/ "http://babaalbus.com/")
 ---
 ## FreeCodeCamp Projects
-1. [Tribute Page](https://github.com/Abhi9935/FrontEndLab/commit/6519f05a16123bf27eb45040acfc6b2765da892b)
+1. [Tribute Page](https://abhi9935.github.io/FreeCodeCamp_TributePage/)
 2. [Survey Form](https://abhi9935.github.io/FreeCodeCamp_SurveyForm/)
 3. [Product Landing Page](https://abhi9935.github.io/FreeCodeCamp_ProductLandingPage/)
 4. [Portfolio](https://abhi9935.github.io/FreeCodeCamp_PersonalPortfolioWebpage/)
