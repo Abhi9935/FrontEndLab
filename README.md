@@ -1,7 +1,7 @@
 # FrontEndLab
 ###### author: [**Abhinav Kushwaha (Baba Albus)**](http://babaalbus.com/ "http://babaalbus.com/")
 ---
-## FreeCodeCamp Projects <img align="left" width="100" height="100" src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg">
+## FreeCodeCamp Projects <img align="right" width="250" height="250" src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg">
   #### [Responsive Web Design Projects](https://www.freecodecamp.org/certification/babaalbus/responsive-web-design)
 1. [Tribute Page](https://abhi9935.github.io/FreeCodeCamp_TributePage/)
 2. [Survey Form](https://abhi9935.github.io/FreeCodeCamp_SurveyForm/)
