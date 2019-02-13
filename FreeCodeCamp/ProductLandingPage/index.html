@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Product Landing Page:FreeCodeCamp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+	#header-img{
+		height: 40px;
+		width: 100px;
+	}
+	.btn-rounded-circle{
+	  border-radius: 10em;
+	}
+	.bg-default {
+		background-color: #2bbbad!important;		
+	}
+	.bg-primary {
+		background-color: #4285f4!important;		
+	}
+	.bg-info {
+		background-color: #33b5e5!important;
+	}
+	.bg-secondary {
+		background-color: #a6c!important;
+	}
+	.bg-light-blue {
+		background-color: #82b1ff!important;
+	}
+	.bg-cyan {
+		background-color: #badee2!important;
+	}
+	footer {
+		padding: 20px;
+		margin-top:20px;
+		background: #22313F;
+		color: white;
+		line-height: 40px;
+	}
+	.d-flex {
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+	@media (max-width: 600px) {
+		#welcome-section{height: 10vh;} !important;
+	}
+
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<header id="header">
+	<nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top justify-content-center" id="nav-bar">
+		<a class="navbar-brand" href="#">
+			<img id="header-img" src="http://babaalbus.com/img/logo.png" alt="original trombones logo">
+		</a>
+		<ul class="navbar-nav navbar-right">
+			<li class="nav-item"><a class="nav-link" href="#welcome-section">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>   
+			<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> 
+		</ul>
+	</nav>
+</header>
+<div class="container mt-5 pt-5">
+	<div class="mx-auto text-center" id="welcome-section">
+		<h1>Create Your Website </h1><br>
+		<p>Lightning Fast Website | One-click Script Installs.</p>
+		<form action="https://www.freecodecamp.com/email-submit" class="form mx-auto" id="form" method="post">
+            <div class="d-flex form-group">
+				<input type="email" name="email" class="form-control flex-fill align-self-center px-4" id="email" placeholder="Enter your email" required>
+            </div>
+			<input type="submit" class="btn bg-success btn-rounded-circle text-white" id="submit" value="Get Started">     
+        </form>			
+	</div>
+</div>
+
+<div class="container mt-5">
+	<div class="card ">
+		<div class="card-body">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kpk_kvY9i5s?rel=0" id="video"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container mt-5" id="pricing">
+	<div class="card-deck">
+		<div class="card bg-light">
+			<div class="card-body text-center">
+				<p class="card-text"></p>
+				<h2>Starter</h2>
+				<p class="card-text">Level up with features that grow with you.</p>
+				<hr>
+				<h2>$49</h2>/month
+				<p class="card-text">billed monthly</p>
+				<hr>				
+				<h6 class="card-text">3 Domains</h6>
+				<h6 class="card-text">10 Emails**</h6>
+				<h6 class="card-text">Premium Support</h6>				
+			</div>
+		</div>
+		<div class="card bg-light-blue">
+			<div class="card-body text-center">
+				<p class="card-text">MOST POPULAR</p>
+				<h2>Pro</h2>
+				<p class="card-text">Add more power to your marketing with advanced tools that enterprise businesses use.</p>
+				<hr>
+				<h2>$89</h2>/month
+				<p class="card-text">billed monthly</p>
+				<hr>				
+				<h6 class="card-text">Unlimited Domains</h6>
+				<h6 class="card-text">Unlimited Emails**</h6>
+				<h6 class="card-text">Multi-User Accounts**</h6>
+				<h6 class="card-text">Premium Support</h6>				
+			</div>
+		</div>
+		<div class="card bg-light">
+			<div class="card-body text-center">
+				<h2>Free</h2>
+				<p class="card-text">Get your business up and running.</p>
+				<hr>
+				<h2>$0</h2>/month
+				<p class="card-text">billed monthly</p>
+				<hr>				
+				<h6 class="card-text">1 Domains</h6>
+				<h6 class="card-text">1 Emails**</h6>		
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="contact" class="max-auto text-center">    
+    <div class="container">
+		<div class=" footer-copyright1 py-4 text-center">© 2018 Copyright:
+			<a href="http://babaalbus.com/"> Abhinav (1416334)</a>
+		</div>  
+    </div>
+</footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
