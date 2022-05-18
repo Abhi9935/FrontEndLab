@@ -11,4 +11,7 @@
 ---
 ## Templates
 1. Socail Network
-![](https://github.com/Abhi9935/FrontEndLab/blob/master/Social%20Network/babasnw1.png)
+![](https://github.com/Abhi9935/FrontEndLab/blob/master/Templates_UI/Social%20Network/babasnw1.png)
+
+2. GitHub Profile Card
+![](https://github.com/Abhi9935/FrontEndLab/blob/master/Templates_UI/GitHubCARD/GitHubCard.PNG)
