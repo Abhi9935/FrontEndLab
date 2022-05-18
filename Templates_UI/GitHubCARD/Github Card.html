@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Abhinav</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<link href="css/GithubCardStyle.css" rel="stylesheet">
+	<script>
+		window.onload = function() {getProfile()};		
+	</script>
+</head>
+<body style="background-color: rgba(7,7,7);">
+<!---- #####################-----social profile badges------##################---->
+<div class="container" style="margin-top:50px;margin-bottom:10px;">
+	<div class="card-deck">				
+			<div class="card hovercard" style="padding:0px; width:100%;" id="github_profile_card">
+				<div class="cardheader aqua-gradient">
+				</div>
+				<div class="avatar">
+					<img id="github_profile_pic" src="">
+					<h5 class=" github blue-text">@<span id="github_profile_username">UserName</span></h5>
+				</div>
+				<div class="card-body text-center p-0">
+					<div class="gitRow row">
+						<div class="col-sm-5 col-xs-12">
+							<p class="github"><span id="github_profile_name">Name</span></p>
+						</div>
+						<div class="col-sm-7 col-xs-12">
+							<a class="github-button btn btn-primary" href="https://github.com/Abhi9935" 
+								data-size="large" aria-label="Follow Abhinav on GitHub">Follow Abhinav
+							</a>
+						</div>
+					</div><!---- row end here--->
+					<div class="row">				
+						<div class="gitCol col-sm-4 col-xs-6">
+							<p>Repositories</p>
+							<h6 class="github" id="github_profile_repo_count">0</h6>
+						</div>
+						<div class="gitCol col-sm-4 col-xs-6">
+							<p>Gists</p>
+							<h6 class="github" id="github_profile_gist_count">0</h6>
+						</div>
+						<div class="gitCol col-sm-4 col-xs-12">
+							<p>Total Contri.</p>
+							<h6 class="github" id="github_profile_contri_total">0</h6>
+						</div>
+					</div><!---- row end here--->
+					<div class="row">
+						<div class="gitCol col-sm-12 col-xs-12">
+							<p>Language</p>
+							<h6 class="github" id="github_profile_lang">0</h6>
+						</div>
+					</div><!---- row end here--->
+			
+				</div><!--- card-body end here-->			
+			</div><!--- card end here-->			
+		</div>
+	</div>			
+</body>
+<script async defer src="https://buttons.github.io/buttons.js"></script>	
+<script src="js/gitHubProfile.js"></script>
+</html>

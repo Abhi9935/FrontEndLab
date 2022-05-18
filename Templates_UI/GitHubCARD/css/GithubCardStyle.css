@@ -1,0 +1,103 @@
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+}
+.card.hovercard .cardheader {
+    background-color: #2323ef;
+    background-size: cover;
+    height: 115px;
+}
+.card.hovercard .avatar {
+    position: relative;
+    top: -80px;
+    margin-bottom: -80px;
+    text-align: center;
+}
+.card.hovercard .avatar img {
+    width: 150px;
+    height: 150px;
+    max-width: 200px;
+    max-height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+.aqua-gradient {
+    background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+}
+.blue-text {
+    color: #2196F3!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.github {
+    font-size: 20px;
+    font-weight: 600;
+}
+.gitRow {
+    font-size: 24px !important;
+    font-weight: 400;
+    color: #212954;
+}
+.gitCol {
+    border: 1px solid #d6dbef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 500;
+}
+#bgcolor0{
+	background-color:#3F51B5;
+	color:#fff;
+	margin:2px;
+	padding:2px 5px 2px 5px;
+	border-radius:10px;
+}
+#bgcolor1{
+	background-color:#2d7730;
+	color:#fff;
+	margin:2px;
+	padding:2px 5px 2px 5px;
+	border-radius:10px;
+}
+#bgcolor2{
+	background-color:#009688;
+	color:#fff;
+	margin:2px;
+	padding:2px 5px 2px 5px;
+	border-radius:10px;
+}
+#bgcolor3{
+	background-color:#2323ef;
+	color:#fff;
+	margin:2px;
+	padding:2px 5px 2px 5px;
+	border-radius:10px;
+}
+#bgcolor4{
+	background-color:#e34c26;
+	color:#fff;
+	margin:2px;
+	padding:2px 5px 2px 5px;
+	border-radius:10px;
+}
+#bgcolor5{
+	background-color:#0d5386;
+	color:#fff;
+	margin:2px;
+	padding:2px 5px 2px 5px;
+	border-radius:10px;
+}
+.mybg1{
+	background-color:#18819a;
+	color:#fff;
+}
+.mybg2{
+	background-color: #e9ecefbf;
+	/*color:#fff;*/
+}
