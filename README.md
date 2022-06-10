@@ -12,5 +12,5 @@
 ## Templates
 | SR no. | Template | Preview |
 | ------ | -------- | ------- |
-| 1. | Socail Network | ![](https://github.com/Abhi9935/FrontEndLab/blob/master/Templates_UI/Social%20Network/babasnw1.png) |
-| 2. | GitHub Profile Card | ![](https://github.com/Abhi9935/FrontEndLab/blob/master/Templates_UI/GitHubCARD/GitHubCard.PNG) |
+| 1. | Socail Network | <img src="Templates_UI/Social%20Network/babasnw1.png" width="600" height="200" /> |
+| 2. | GitHub Profile Card | <img src="Templates_UI/GitHubCARD/GitHubCard.PNG" width="600" height="200" /> |
